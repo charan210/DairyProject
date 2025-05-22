@@ -111,6 +111,12 @@ nav a.active {
   color: white;
   text-align: center;
 }
+.heroc {
+  padding: 6rem 3rem;
+  background: url('images/milk-van.jpeg') no-repeat center center/cover;
+  color:  #2d6a4f;
+  text-align: center;
+}
 
 .hero h1 {
   font-size: 3rem;
