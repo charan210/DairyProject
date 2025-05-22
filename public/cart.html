@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart | Nizamabad Dairy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Nizamabad Dairy</div>
+    <div class="hamburger" onclick="toggleMenu()">
+    ☰
+  </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="plans.html">Plans</a></li>
+      
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="cart-icon">
+    <a href="cart.html">
+      <img src="images/cart.png" alt="Cart" />
+    </a>
+  </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" style="background-image: url('assets/images/cart-banner.jpg');">
+    <h1>Your Cart</h1>
+    <p>Review your selected items before checkout</p>
+  </section>
+
+  <!-- Cart Items -->
+  <section class="section">
+    <h2>Items in Your Cart</h2>
+    <div class="cart-container">
+
+      <div class="cart-item">
+        <img src="assets/images/milk.png" alt="Milk" />
+        <div class="cart-details">
+          <h3>Fresh Cow Milk</h3>
+          <p>Quantity: 2 Litres</p>
+          <p>Price: ₹50 x 2 = ₹100</p>
+        </div>
+        <button class="remove-btn">Remove</button>
+      </div>
+
+      <div class="cart-item">
+        <img src="assets/images/paneer.png" alt="Paneer" />
+        <div class="cart-details">
+          <h3>Homemade Paneer</h3>
+          <p>Quantity: 500g</p>
+          <p>Price: ₹120</p>
+        </div>
+        <button class="remove-btn">Remove</button>
+      </div>
+
+      <div class="cart-total">
+        <h3>Total: ₹220</h3>
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Nizamabad Dairy. All rights reserved.</p>
+  </footer>
+ <script src="script.js"></script>
+
+
+</body>
+</html>

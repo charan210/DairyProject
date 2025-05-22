@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Testimonials | Nizamabad Dairy</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.testimonial-card {
+  background: #fff;
+  border-left: 4px solid #00754a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card h4 {
+  text-align: right;
+  color: #00754a;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Nizamabad Dairy</div>
+    <div class="hamburger" onclick="toggleMenu()">
+    ☰
+  </div>
+    <ul>
+ <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="plans.html">Plans</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="cart-icon">
+    <a href="cart.html">
+      <img src="images/cart.png" alt="Cart" />
+    </a>
+  </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" style="background-image: url('images/testimonials-banner.jpg');">
+    <h1>What Our Customers Say</h1>
+    <p>Trusted by hundreds of happy families in Nizamabad</p>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section">
+    <h2>Happy Customers</h2>
+    <div class="testimonial-container">
+
+      <div class="testimonial-card">
+        <p>"I’ve been using Nizamabad Dairy’s daily milk plan for 6 months now. The milk is always fresh and my kids love it!"</p>
+        <h4>— Swathi Reddy, Nizamabad</h4>
+      </div>
+
+      <div class="testimonial-card">
+        <p>"Excellent quality products and reliable delivery. Their paneer and ghee are better than store-bought!"</p>
+        <h4>— Rajesh Kumar, Hyderabad</h4>
+      </div>
+
+      <div class="testimonial-card">
+        <p>"The subscription model is very convenient. I love that I can pause it during travel. Great service!"</p>
+        <h4>— Anjali Sharma, Nizamabad</h4>
+      </div>
+
+      <div class="testimonial-card">
+        <p>"Nizamabad Dairy’s curd tastes just like my grandmother used to make. Highly recommend!"</p>
+        <h4>— Vamsi Krishna, Kamareddy</h4>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Nizamabad Dairy. All rights reserved.</p>
+  </footer>
+<script src="script.js"></script>
+
+</body>
+</html>
